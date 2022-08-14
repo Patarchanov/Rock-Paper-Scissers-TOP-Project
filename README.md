@@ -1,2 +1,37 @@
 # Rock-Paper-Scissers-TOP-Project
-Rock, Paper, Scissors game from the The Odin Project course.
+Project to create **Rock Paper Scissors** game using only HTML, CSS and Vanilla JS.
+
+From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors).
+
+🔗 **Live preview:** [here]()
+
+## Built with
+
+### Technologies
+
+* HTML
+* CSS
+* JS
+
+### Tools
+
+* Atom
+
+## Summary
+
+### What I learned
+
+* Better knowledge of **Javascript** basics.
+* Improved **code structure** and **code readability**.
+* Improved **clean code** writing.
+* My friend is very patient person.
+
+### What could be improved
+
+* Better mobile support.
+* Cleaner code.
+
+## Author
+
+👤 **Patarchanov**
+* GitHub: [Patarchanov](https://github.com/Patarchanov)
