@@ -24,7 +24,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/foun
 * Better knowledge of **Javascript** basics.
 * Improved **code structure** and **code readability**.
 * Improved **clean code** writing.
-* My friend is very patient person.
+* My friend is a very patient person.
 
 ### What could be improved
 
