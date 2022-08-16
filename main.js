@@ -76,24 +76,6 @@ function game(userChoice) {
   checkWinner();
 }
 
-/* Function activating the game by your click of an choice */
-function main() {
-  rockChoice.addEventListener('click', function() {
-    game("rock");
-  })
-
-  paperChoice.addEventListener('click', function() {
-    game("paper");
-  })
-
-  scissorsChoice.addEventListener('click', function() {
-    game("scissors");
-  })
-}
-console.log(main());
-
-/* Function finishing the game after 5 wins/losses */
-
 // Winner check function
 function checkWinner() {
   if (player_box < 5 && computer_box < 5) {
@@ -115,3 +97,21 @@ function declareWinner(){
     results.style.color = '#DC143C'
   }
 }
+
+/* Function activating the game by your click of an choice */
+function main() {
+  rockChoice.addEventListener('click', function() {
+    game("rock");
+  })
+
+  paperChoice.addEventListener('click', function() {
+    game("paper");
+  })
+
+  scissorsChoice.addEventListener('click', function() {
+    game("scissors");
+  })
+}
+console.log(main());
+
+/* Function finishing the game after 5 wins/losses */
