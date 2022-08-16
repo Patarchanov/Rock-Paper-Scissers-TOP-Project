@@ -3,7 +3,7 @@ Project to create **Rock Paper Scissors** game using only HTML, CSS and Vanilla 
 
 From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors).
 
-🔗 **Live preview:** [here]()
+🔗 **Live preview:** [here](https://patarchanov.github.io/Rock-Paper-Scissers-TOP-Project/)
 
 ## Built with
 
