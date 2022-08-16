@@ -1,0 +1,174 @@
+/* Main part of the page starts here*/
+/* Some roots so you can save time later */
+:root {
+  --main-pink: #FFF0F5;
+  --main-orange: #FF6347;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-pink);
+}
+
+.page_background {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Main part of the page ends here */
+
+/* Text section starts here*/
+.text {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: : flex-start;
+}
+
+.game_title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  color: var(--main-orange);
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px;
+  color: var(--main-orange);
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px;
+  color: var(--main-orange);
+  font-size: 1.7rem;
+}
+/* Text section ends here */
+
+/* Buttons section starts here*/
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rock-picture {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 10%;
+  border: 2px solid var(--main-orange);
+  margin: 5px 15px;
+}
+
+/* Ask Sulphy how to connect all the hovers with one class */
+.rock-picture:hover {
+  cursor: pointer;
+}
+
+.paper-picture {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 10%;
+  border: 2px solid var(--main-orange);
+  margin: 5px 15px;
+}
+
+.paper-picture:hover {
+  cursor: pointer;
+}
+
+ .scissors-picture {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 10%;
+  border: 2px solid var(--main-orange);
+  margin: 5px 15px;
+}
+
+.scissors-picture:hover {
+  cursor: pointer;
+}
+/* Buttons section ends here*/
+
+
+/* Scores section starts here*/
+.scores {
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.score_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 50px;
+  background-color: var(--main-pink);
+  margin: 1px 10px 10px 10px;
+  border: 2px solid var(--main-orange);
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.0rem;
+}
+
+.scores_text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+}
+/* Scores section ends here*/
+
+/* Results section starts here*/
+.results {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.results_text {
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
+}
+
+.results_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 520px;
+  height: 110px;
+  background-color: var(--main-pink);
+  border: 2px solid var(--main-orange);
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.7rem;
+}
+/* Results section ends here*/
